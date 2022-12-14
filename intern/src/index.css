@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html{
+    font-size: 62.5%;
+}
+@media screen and (max-width:550px) {
+    html{
+        font-size: 45%;
+    }
+}
+
+/* CSS OF TABLE COMPONENT */
+table{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS OF INPUT */
+input{
+    outline: none;
+    border: 2px solid purple;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 3px;
+}
+input:focus{
+    box-shadow: 0px 0px  8px blueviolet;
+}
+
+/* CSS OF LOCATION PAGE */
+.location{
+    width: 100vw;
+    height: auto;
+    min-width: 63rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hero-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50rem;
+    margin-top: 5rem;
+}
+
+
+/* CSS FOR input file */
+
+.input{
+    min-width: 63rem;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4rem;
+    align-items: center;
+    background-image: linear-gradient(160deg, whitesmoke,white);
+}
+.input-1{
+    width: 30rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-control{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 45rem;
+}
+button{
+    width:12rem;
+    height: 3rem;
+    background-color: green;
+    color: white;
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+label{
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:chocolate;
+}
+
+/* CSS of subtable */
+
+.subtable{
+    min-width: 63rem;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+  
+}
+.sub-hero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+    word-spacing: 0.5rem;
+    margin: 4rem;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20rem;
+}
+
+/* CSS of navbar */
+
+.navbar{
+    width: 100vw;
+    min-width: 63rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   background-image: linear-gradient(100deg, blue,purple,white);
+    height: 8rem;
+    position: sticky;
+    top: 0;
+    padding-top: 2rem;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-family: monospace;
+    font-weight: 600;
+    margin: 4rem;
+    color:black
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+/* CSS of maMainLocationin page */
+
+.MainLocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: auto;
+    min-width: 63rem;
+    background-color: aliceblue;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+.hero-data{
+    font-size: 3rem;
+    width: 35rem;
+    line-height: 4rem;
+    word-spacing: 0.5rem;
+   font-weight: 700;
+}
+.main-hero{
+    width: 23rem;
+}
+
+
+
+/*  Note:- I have shown two types of css first i have used inline css and the second is link css. */
