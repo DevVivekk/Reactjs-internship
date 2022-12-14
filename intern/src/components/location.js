@@ -14,7 +14,7 @@ getlocation();
     <div className="location">
      <div className="hero-1" style={{"width":"55rem"}}>
     <h1  style={{"fontFamily":"monospace","fontSize":"5rem"}}><Typewriter onInit={(typewriter)=>{
-      typewriter.typeString('Welcome To My React Project App!').pauseFor(1000).deleteAll().typeString("I made this app my for my Reactjs Internship!").pauseFor(2000).deleteAll().typeString("And my name is Vivek Bhardwaj!😃").start();
+      typewriter.typeString('Welcome To My React Project App!').pauseFor(1000).deleteAll().typeString("I made this app for my Reactjs Internship!").pauseFor(2000).deleteAll().typeString("And my name is Vivek Bhardwaj!😃").start();
     }} /></h1><br /><br /><br />
       <h1 style={{width:"40rem",fontFamily:"sans-serif",fontStyle:"oblique","wordSpacing":"0.7rem","lineHeight":"3rem"}}>
         Hello There, Seems like you are from, <span style={{color:"red"}}>{fetchh.city}</span> and also I can see
